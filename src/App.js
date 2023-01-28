@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { Switch, useLocation } from "react-router-dom";
-import AppRoute from "./utils/AppRoute";
+import { Route, Routes, useLocation } from "react-router-dom";
 import ScrollReveal from "./utils/ScrollReveal";
 
 // Layouts
@@ -14,7 +13,6 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
     document.body.classList.add("is-loaded");
     childRef.current.init();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -24,9 +22,9 @@ const App = () => {
     <ScrollReveal
       ref={childRef}
       children={() => (
-        <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} layout={LayoutDefault} />
+        </Routes>
       )}
     />
   );
