@@ -23,7 +23,14 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Routes>
-          <Route path="/" element={<Home />} layout={LayoutDefault} />
+          <Route
+            path="/"
+            element={
+              <LayoutDefault>
+                <Home />
+              </LayoutDefault>
+            }
+          />
         </Routes>
       )}
     />

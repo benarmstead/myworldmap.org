@@ -1,17 +1,14 @@
-import React from 'react';
-import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
-import Banner from '../components/layout/partials/Banner';
+import React from "react";
+import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
 
 const LayoutDefault = ({ children }) => (
   <>
     <Header navPosition="right" className="reveal-from-bottom" />
-    <main className="site-content">
-      {children}
-    </main>
-    <Banner />
+    <main className="site-content">{children}</main>
+    {/* <Banner /> */}
     <Footer />
   </>
 );
 
-export default LayoutDefault;  
+export default LayoutDefault;
