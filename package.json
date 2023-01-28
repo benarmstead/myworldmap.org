@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "classnames": "^2.2.6",
-    "lodash": "^4.17.15",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-ga": "^2.7.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1",
-    "sass": "^1.49.7"
+    "classnames": "^2",
+    "lodash": "^4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^5",
+    "react-scripts": "^3",
+    "sass": "^1"
   },
   "repository": {
     "type": "git",
