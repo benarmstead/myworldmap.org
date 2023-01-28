@@ -7,7 +7,7 @@
     "lodash": "^4",
     "react": "^18",
     "react-dom": "^18",
-    "react-router-dom": "^5",
+    "react-router-dom": "^6",
     "react-scripts": "^3",
     "sass": "^1"
   },
