@@ -51,7 +51,7 @@ const FeaturesSplit = ({
   const sectionHeader = {
     title: "Map Where You Have Been",
     paragraph:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.",
+      "Select the cities and countries you have been to. View stats about them and share them with your friends.",
   };
 
   return (
@@ -66,14 +66,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Countries
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Select countries and points</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Easily keep track of your travels with our country and point
+                  selection feature.You can click countries on the map which you
+                  have been to which are then highlighted green, as well as
+                  adding markers on the map to show specific locations you have
+                  visited.
                 </p>
               </div>
               <div
@@ -98,14 +99,12 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Points
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">Share with friends</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Easily share your travel experiences with friends by clicking
+                  the share icon and sending them your personalized URL.
                 </p>
               </div>
               <div
@@ -130,14 +129,15 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Stats
                 </div>
-                <h3 className="mt-0 mb-12">Data-driven insights</h3>
+                <h3 className="mt-0 mb-12">View Stats</h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                  — Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                  Discover how much of the world and each individual continent
+                  you have explored with our statistics! Our statistics provide
+                  you with a detailed breakdown of your past travels, giving you
+                  inspiration for future adventures or a sense of satisfaction
+                  as you reminisce on past experiences.
                 </p>
               </div>
               <div
