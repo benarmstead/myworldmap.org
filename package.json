@@ -10,7 +10,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "^5.0.1",
-    "sass": "^1.58.3"
+    "sass": "^1.60.0"
   },
   "repository": {
     "type": "git",
