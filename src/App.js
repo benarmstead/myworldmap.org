@@ -7,6 +7,7 @@ import LayoutDefault from "./layouts/LayoutDefault";
 
 // Views
 import Home from "./views/Home";
+import Privacy from "./views/Privacy";
 
 const App = () => {
   const childRef = useRef();
@@ -28,6 +29,14 @@ const App = () => {
             element={
               <LayoutDefault>
                 <Home />
+              </LayoutDefault>
+            }
+          />
+          <Route
+            path="/privacy"
+            element={
+              <LayoutDefault>
+                <Privacy />
               </LayoutDefault>
             }
           />
