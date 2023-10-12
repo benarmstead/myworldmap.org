@@ -1,5 +1,4 @@
 import React from "react";
-import FeaturesSplit from "../components/sections/FeaturesSplit";
 import Hero from "../components/sections/Hero";
 
 const Privacy = () => {
