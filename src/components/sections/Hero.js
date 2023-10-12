@@ -87,12 +87,27 @@ const Hero = ({
                   </Button>
                 </ButtonGroup>
               </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <br />
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.myworldmap"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Image
+                    src={
+                      "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                    }
+                    alt={"Get it on Google Play"}
+                    width={200}
+                    height={100}
+                  />
+                </a>
+              </div>
             </div>
           </div>
           <div
             className="hero-figure reveal-from-bottom illustration-element-01"
-            data-reveal-value="20px"
-            data-reveal-delay="800"
           >
             <Image
               className="has-shadow"
