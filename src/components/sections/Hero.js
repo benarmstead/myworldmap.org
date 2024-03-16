@@ -55,9 +55,7 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Create your own personalised interactive travel map. Select
-                countries and places you have been and share them with your
-                friends!
+                Create your own personalised interactive travel map.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
