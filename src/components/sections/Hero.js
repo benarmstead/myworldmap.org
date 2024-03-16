@@ -77,14 +77,6 @@ const Hero = ({
                   >
                     Login
                   </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://map.myworldmap.org/"
-                  >
-                    Demo
-                  </Button>
                 </ButtonGroup>
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
@@ -106,9 +98,7 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div
-            className="hero-figure reveal-from-bottom illustration-element-01"
-          >
+          <div className="hero-figure reveal-from-bottom illustration-element-01">
             <Image
               className="has-shadow"
               src={require("./../../assets/images/hero.png")}
