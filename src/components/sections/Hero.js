@@ -77,7 +77,7 @@ const Hero = ({
                   </Button>
                 </ButtonGroup>
               </div>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
+              {/*<div className="reveal-from-bottom" data-reveal-delay="600">
                 <br />
                 <a
                   href="https://play.google.com/store/apps/details?id=com.myworldmap"
@@ -93,7 +93,7 @@ const Hero = ({
                     height={100}
                   />
                 </a>
-              </div>
+              </div>*/}
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01">
