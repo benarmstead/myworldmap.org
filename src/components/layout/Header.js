@@ -109,7 +109,7 @@ const Header = ({
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
-                          to="https://map.myworldmap.org/login"
+                          to="https://map.myworldmap.org/accounts/login"
                           className="button button-light button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >
@@ -118,7 +118,7 @@ const Header = ({
                       </li>
                       <li>
                         <Link
-                          to="https://map.myworldmap.org/register"
+                          to="https://map.myworldmap.org/accounts/signup"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >

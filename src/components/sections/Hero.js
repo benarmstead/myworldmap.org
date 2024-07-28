@@ -63,7 +63,7 @@ const Hero = ({
                     tag="a"
                     color="primary"
                     wideMobile
-                    href="https://map.myworldmap.org/register"
+                    href="https://map.myworldmap.org/accounts/signup"
                   >
                     Sign Up
                   </Button>
@@ -71,7 +71,7 @@ const Hero = ({
                     tag="a"
                     color="light"
                     wideMobile
-                    href="https://map.myworldmap.org/login"
+                    href="https://map.myworldmap.org/accounts/login"
                   >
                     Login
                   </Button>
