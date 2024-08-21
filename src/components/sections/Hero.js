@@ -6,78 +6,84 @@ import ButtonGroup from "../elements/ButtonGroup";
 import Image from "../elements/Image";
 
 const propTypes = {
-  ...SectionProps.types,
+    ...SectionProps.types,
 };
 
 const defaultProps = {
-  ...SectionProps.defaults,
+    ...SectionProps.defaults,
 };
 
 const Hero = ({
-  className,
-  topOuterDivider,
-  bottomOuterDivider,
-  topDivider,
-  bottomDivider,
-  hasBgColor,
-  invertColor,
-  ...props
+    className,
+    topOuterDivider,
+    bottomOuterDivider,
+    topDivider,
+    bottomDivider,
+    hasBgColor,
+    invertColor,
+    ...props
 }) => {
-  const outerClasses = classNames(
-    "hero section center-content",
-    topOuterDivider && "has-top-divider",
-    bottomOuterDivider && "has-bottom-divider",
-    hasBgColor && "has-bg-color",
-    invertColor && "invert-color",
-    className
-  );
+    const outerClasses = classNames(
+        "hero section center-content",
+        topOuterDivider && "has-top-divider",
+        bottomOuterDivider && "has-bottom-divider",
+        hasBgColor && "has-bg-color",
+        invertColor && "invert-color",
+        className
+    );
 
-  const innerClasses = classNames(
-    "hero-inner section-inner",
-    topDivider && "has-top-divider",
-    bottomDivider && "has-bottom-divider"
-  );
+    const innerClasses = classNames(
+        "hero-inner section-inner",
+        topDivider && "has-top-divider",
+        bottomDivider && "has-bottom-divider"
+    );
 
-  return (
-    <section {...props} className={outerClasses}>
-      <div className="container-sm">
-        <div className={innerClasses}>
-          <div className="hero-content">
-            <h1
-              className="mt-0 mb-16 reveal-from-bottom"
-              data-reveal-delay="200"
-            >
-              Create your own{" "}
-              <span className="text-color-primary">Travel Map</span>
-            </h1>
-            <div className="container-xs">
-              <p
-                className="m-0 mb-32 reveal-from-bottom"
-                data-reveal-delay="400"
-              >
-                Create your own personalised interactive travel map.
-              </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button
-                    tag="a"
-                    color="primary"
-                    wideMobile
-                    href="https://map.myworldmap.org/accounts/signup"
-                  >
-                    Sign Up
-                  </Button>
-                  <Button
-                    tag="a"
-                    color="light"
-                    wideMobile
-                    href="https://map.myworldmap.org/accounts/login"
-                  >
-                    Login
-                  </Button>
-                </ButtonGroup>
-              </div>
-              {/*<div className="reveal-from-bottom" data-reveal-delay="600">
+    return (
+        <section {...props} className={outerClasses}>
+            <div className="container-sm">
+                <div className={innerClasses}>
+                    <div className="hero-content">
+                        <h1
+                            className="mt-0 mb-16 reveal-from-bottom"
+                            data-reveal-delay="200"
+                        >
+                            Create your own{" "}
+                            <span className="text-color-primary">
+                                Travel Map
+                            </span>
+                        </h1>
+                        <div className="container-xs">
+                            <p
+                                className="m-0 mb-32 reveal-from-bottom"
+                                data-reveal-delay="400"
+                            >
+                                Create your own personalised interactive travel
+                                map.
+                            </p>
+                            <div
+                                className="reveal-from-bottom"
+                                data-reveal-delay="600"
+                            >
+                                <ButtonGroup>
+                                    <Button
+                                        tag="a"
+                                        color="primary"
+                                        wideMobile
+                                        href="https://map.myworldmap.org/"
+                                    >
+                                        Sign Up
+                                    </Button>
+                                    <Button
+                                        tag="a"
+                                        color="light"
+                                        wideMobile
+                                        href="https://map.myworldmap.org/"
+                                    >
+                                        Login
+                                    </Button>
+                                </ButtonGroup>
+                            </div>
+                            {/*<div className="reveal-from-bottom" data-reveal-delay="600">
                 <br />
                 <a
                   href="https://play.google.com/store/apps/details?id=com.myworldmap"
@@ -94,21 +100,21 @@ const Hero = ({
                   />
                 </a>
               </div>*/}
+                        </div>
+                    </div>
+                    <div className="hero-figure reveal-from-bottom illustration-element-01">
+                        <Image
+                            className="has-shadow"
+                            src={require("./../../assets/images/hero.png")}
+                            alt="Hero"
+                            width={896}
+                            height={504}
+                        />
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01">
-            <Image
-              className="has-shadow"
-              src={require("./../../assets/images/hero.png")}
-              alt="Hero"
-              width={896}
-              height={504}
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+        </section>
+    );
 };
 
 Hero.propTypes = propTypes;
